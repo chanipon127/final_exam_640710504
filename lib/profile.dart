@@ -129,7 +129,9 @@ class ProfileCard extends StatelessWidget {
             _InfoRow(icon: Icons.email, text: email, iconColor: Colors.blue),
             const SizedBox(height: 10),
             _InfoRow(
-                icon: Icons.phone, text: phoneNumber, iconColor: Colors.green),
+                icon: Icons.phone,
+                text: phoneNumber,
+                iconColor: Color.fromARGB(255, 137, 201, 140)),
             const SizedBox(height: 12),
           ],
         ),
